@@ -25,6 +25,17 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+# Ignore data files
+data/*.csv
+data/*.npy
+
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
